@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE82B3DA19A6E607000BFABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3D919A6E607000BFABE /* AppDelegate.swift */; };
+		AE82B3DD19A6E607000BFABE /* Forest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3DB19A6E607000BFABE /* Forest.xcdatamodeld */; };
+		AE82B3DF19A6E607000BFABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3DE19A6E607000BFABE /* ViewController.swift */; };
+		AE82B3E219A6E607000BFABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE82B3E019A6E607000BFABE /* Main.storyboard */; };
+		AE82B3E419A6E607000BFABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE82B3E319A6E607000BFABE /* Images.xcassets */; };
+		AE82B3F019A6E607000BFABE /* ForestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3EF19A6E607000BFABE /* ForestTests.swift */; };
+		AE82B3FB19A6E61C000BFABE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE82B3FA19A6E61C000BFABE /* CloudKit.framework */; };
+		AE82B3FD19A6E620000BFABE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE82B3FC19A6E620000BFABE /* MapKit.framework */; };
+		AE82B3FF19A6E658000BFABE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE82B3FE19A6E658000BFABE /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE82B3EA19A6E607000BFABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE82B3CC19A6E607000BFABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE82B3D319A6E607000BFABE;
+			remoteInfo = Forest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE82B3D419A6E607000BFABE /* Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE82B3D819A6E607000BFABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE82B3D919A6E607000BFABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE82B3DC19A6E607000BFABE /* Forest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Forest.xcdatamodel; sourceTree = "<group>"; };
+		AE82B3DE19A6E607000BFABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE82B3E119A6E607000BFABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE82B3E319A6E607000BFABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE82B3E919A6E607000BFABE /* ForestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE82B3EE19A6E607000BFABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE82B3EF19A6E607000BFABE /* ForestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestTests.swift; sourceTree = "<group>"; };
+		AE82B3F919A6E618000BFABE /* Forest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Forest.entitlements; sourceTree = "<group>"; };
+		AE82B3FA19A6E61C000BFABE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AE82B3FC19A6E620000BFABE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AE82B3FE19A6E658000BFABE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE82B3D119A6E607000BFABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82B3FF19A6E658000BFABE /* GameKit.framework in Frameworks */,
+				AE82B3FD19A6E620000BFABE /* MapKit.framework in Frameworks */,
+				AE82B3FB19A6E61C000BFABE /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82B3E619A6E607000BFABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE82B3CB19A6E607000BFABE = {
+			isa = PBXGroup;
+			children = (
+				AE82B3D619A6E607000BFABE /* Forest */,
+				AE82B3EC19A6E607000BFABE /* ForestTests */,
+				AE82B3D519A6E607000BFABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE82B3D519A6E607000BFABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE82B3D419A6E607000BFABE /* Forest.app */,
+				AE82B3E919A6E607000BFABE /* ForestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE82B3D619A6E607000BFABE /* Forest */ = {
+			isa = PBXGroup;
+			children = (
+				AE82B3F919A6E618000BFABE /* Forest.entitlements */,
+				AE82B3D919A6E607000BFABE /* AppDelegate.swift */,
+				AE82B3DE19A6E607000BFABE /* ViewController.swift */,
+				AE82B3E019A6E607000BFABE /* Main.storyboard */,
+				AE82B3E319A6E607000BFABE /* Images.xcassets */,
+				AE82B3DB19A6E607000BFABE /* Forest.xcdatamodeld */,
+				AE82B3D719A6E607000BFABE /* Supporting Files */,
+				AE82B40019A6E666000BFABE /* Frameworks */,
+			);
+			path = Forest;
+			sourceTree = "<group>";
+		};
+		AE82B3D719A6E607000BFABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE82B3D819A6E607000BFABE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE82B3EC19A6E607000BFABE /* ForestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE82B3EF19A6E607000BFABE /* ForestTests.swift */,
+				AE82B3ED19A6E607000BFABE /* Supporting Files */,
+			);
+			path = ForestTests;
+			sourceTree = "<group>";
+		};
+		AE82B3ED19A6E607000BFABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE82B3EE19A6E607000BFABE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE82B40019A6E666000BFABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE82B3FE19A6E658000BFABE /* GameKit.framework */,
+				AE82B3FC19A6E620000BFABE /* MapKit.framework */,
+				AE82B3FA19A6E61C000BFABE /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE82B3D319A6E607000BFABE /* Forest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE82B3F319A6E607000BFABE /* Build configuration list for PBXNativeTarget "Forest" */;
+			buildPhases = (
+				AE82B3D019A6E607000BFABE /* Sources */,
+				AE82B3D119A6E607000BFABE /* Frameworks */,
+				AE82B3D219A6E607000BFABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forest;
+			productName = Forest;
+			productReference = AE82B3D419A6E607000BFABE /* Forest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE82B3E819A6E607000BFABE /* ForestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE82B3F619A6E607000BFABE /* Build configuration list for PBXNativeTarget "ForestTests" */;
+			buildPhases = (
+				AE82B3E519A6E607000BFABE /* Sources */,
+				AE82B3E619A6E607000BFABE /* Frameworks */,
+				AE82B3E719A6E607000BFABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE82B3EB19A6E607000BFABE /* PBXTargetDependency */,
+			);
+			name = ForestTests;
+			productName = ForestTests;
+			productReference = AE82B3E919A6E607000BFABE /* ForestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE82B3CC19A6E607000BFABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "App Tree";
+				TargetAttributes = {
+					AE82B3D319A6E607000BFABE = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = N8R3JS4XVZ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					AE82B3E819A6E607000BFABE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AE82B3D319A6E607000BFABE;
+					};
+				};
+			};
+			buildConfigurationList = AE82B3CF19A6E607000BFABE /* Build configuration list for PBXProject "Forest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE82B3CB19A6E607000BFABE;
+			productRefGroup = AE82B3D519A6E607000BFABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE82B3D319A6E607000BFABE /* Forest */,
+				AE82B3E819A6E607000BFABE /* ForestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE82B3D219A6E607000BFABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82B3E219A6E607000BFABE /* Main.storyboard in Resources */,
+				AE82B3E419A6E607000BFABE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82B3E719A6E607000BFABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE82B3D019A6E607000BFABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82B3DF19A6E607000BFABE /* ViewController.swift in Sources */,
+				AE82B3DD19A6E607000BFABE /* Forest.xcdatamodeld in Sources */,
+				AE82B3DA19A6E607000BFABE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82B3E519A6E607000BFABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82B3F019A6E607000BFABE /* ForestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE82B3EB19A6E607000BFABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE82B3D319A6E607000BFABE /* Forest */;
+			targetProxy = AE82B3EA19A6E607000BFABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE82B3E019A6E607000BFABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE82B3E119A6E607000BFABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE82B3F119A6E607000BFABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE82B3F219A6E607000BFABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE82B3F419A6E607000BFABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Forest/Forest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Forest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AE82B3F519A6E607000BFABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Forest/Forest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Forest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AE82B3F719A6E607000BFABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forest.app/Forest";
+			};
+			name = Debug;
+		};
+		AE82B3F819A6E607000BFABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forest.app/Forest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE82B3CF19A6E607000BFABE /* Build configuration list for PBXProject "Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE82B3F119A6E607000BFABE /* Debug */,
+				AE82B3F219A6E607000BFABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE82B3F319A6E607000BFABE /* Build configuration list for PBXNativeTarget "Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE82B3F419A6E607000BFABE /* Debug */,
+				AE82B3F519A6E607000BFABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE82B3F619A6E607000BFABE /* Build configuration list for PBXNativeTarget "ForestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE82B3F719A6E607000BFABE /* Debug */,
+				AE82B3F819A6E607000BFABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE82B3DB19A6E607000BFABE /* Forest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE82B3DC19A6E607000BFABE /* Forest.xcdatamodel */,
+			);
+			currentVersion = AE82B3DC19A6E607000BFABE /* Forest.xcdatamodel */;
+			path = Forest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE82B3CC19A6E607000BFABE /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4F6E6DB-92E5-4944-94B7-DCAF847EF74E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Forest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>216ED10A1D7A2CA81AC29FB6DBDC3F2056B2ADB8</key>
+		<string>github.com:sitdh/Forest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Forest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>216ED10A1D7A2CA81AC29FB6DBDC3F2056B2ADB8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:sitdh/Forest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>216ED10A1D7A2CA81AC29FB6DBDC3F2056B2ADB8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>216ED10A1D7A2CA81AC29FB6DBDC3F2056B2ADB8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Forest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

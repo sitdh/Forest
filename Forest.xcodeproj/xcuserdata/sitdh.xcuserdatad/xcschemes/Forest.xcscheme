@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE82B3D319A6E607000BFABE"
+               BlueprintIdentifier = "AECDA53319A704100072D831"
                BuildableName = "Forest.app"
                BlueprintName = "Forest"
                ReferencedContainer = "container:Forest.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE82B3E819A6E607000BFABE"
+               BlueprintIdentifier = "AECDA54819A704100072D831"
                BuildableName = "ForestTests.xctest"
                BlueprintName = "ForestTests"
                ReferencedContainer = "container:Forest.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE82B3E819A6E607000BFABE"
+               BlueprintIdentifier = "AECDA54819A704100072D831"
                BuildableName = "ForestTests.xctest"
                BlueprintName = "ForestTests"
                ReferencedContainer = "container:Forest.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE82B3D319A6E607000BFABE"
+            BlueprintIdentifier = "AECDA53319A704100072D831"
             BuildableName = "Forest.app"
             BlueprintName = "Forest"
             ReferencedContainer = "container:Forest.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE82B3D319A6E607000BFABE"
+            BlueprintIdentifier = "AECDA53319A704100072D831"
             BuildableName = "Forest.app"
             BlueprintName = "Forest"
             ReferencedContainer = "container:Forest.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE82B3D319A6E607000BFABE"
+            BlueprintIdentifier = "AECDA53319A704100072D831"
             BuildableName = "Forest.app"
             BlueprintName = "Forest"
             ReferencedContainer = "container:Forest.xcodeproj">

@@ -7,56 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE82B3DA19A6E607000BFABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3D919A6E607000BFABE /* AppDelegate.swift */; };
-		AE82B3DD19A6E607000BFABE /* Forest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3DB19A6E607000BFABE /* Forest.xcdatamodeld */; };
-		AE82B3DF19A6E607000BFABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3DE19A6E607000BFABE /* ViewController.swift */; };
-		AE82B3E219A6E607000BFABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE82B3E019A6E607000BFABE /* Main.storyboard */; };
-		AE82B3E419A6E607000BFABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE82B3E319A6E607000BFABE /* Images.xcassets */; };
-		AE82B3F019A6E607000BFABE /* ForestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82B3EF19A6E607000BFABE /* ForestTests.swift */; };
-		AE82B3FB19A6E61C000BFABE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE82B3FA19A6E61C000BFABE /* CloudKit.framework */; };
-		AE82B3FD19A6E620000BFABE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE82B3FC19A6E620000BFABE /* MapKit.framework */; };
-		AE82B3FF19A6E658000BFABE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE82B3FE19A6E658000BFABE /* GameKit.framework */; };
+		AECDA53A19A704100072D831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53919A704100072D831 /* AppDelegate.swift */; };
+		AECDA53D19A704100072D831 /* Forest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53B19A704100072D831 /* Forest.xcdatamodeld */; };
+		AECDA53F19A704100072D831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53E19A704100072D831 /* ViewController.swift */; };
+		AECDA54219A704100072D831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECDA54019A704100072D831 /* Main.storyboard */; };
+		AECDA54419A704100072D831 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECDA54319A704100072D831 /* Images.xcassets */; };
+		AECDA55019A704100072D831 /* ForestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA54F19A704100072D831 /* ForestTests.swift */; };
+		AECDA55F19A705B80072D831 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA55E19A705B80072D831 /* FacebookSDK.framework */; };
+		AECDA56219A706240072D831 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA56119A706240072D831 /* CloudKit.framework */; };
+		AECDA56419A706280072D831 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA56319A706280072D831 /* GameKit.framework */; };
+		AECDA56619A706430072D831 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA56519A706430072D831 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE82B3EA19A6E607000BFABE /* PBXContainerItemProxy */ = {
+		AECDA54A19A704100072D831 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AE82B3CC19A6E607000BFABE /* Project object */;
+			containerPortal = AECDA52C19A704100072D831 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AE82B3D319A6E607000BFABE;
+			remoteGlobalIDString = AECDA53319A704100072D831;
 			remoteInfo = Forest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AE82B3D419A6E607000BFABE /* Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE82B3D819A6E607000BFABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE82B3D919A6E607000BFABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE82B3DC19A6E607000BFABE /* Forest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Forest.xcdatamodel; sourceTree = "<group>"; };
-		AE82B3DE19A6E607000BFABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE82B3E119A6E607000BFABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE82B3E319A6E607000BFABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AE82B3E919A6E607000BFABE /* ForestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE82B3EE19A6E607000BFABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE82B3EF19A6E607000BFABE /* ForestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestTests.swift; sourceTree = "<group>"; };
-		AE82B3F919A6E618000BFABE /* Forest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Forest.entitlements; sourceTree = "<group>"; };
-		AE82B3FA19A6E61C000BFABE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		AE82B3FC19A6E620000BFABE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		AE82B3FE19A6E658000BFABE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AECDA53419A704100072D831 /* Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECDA53819A704100072D831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECDA53919A704100072D831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AECDA53C19A704100072D831 /* Forest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Forest.xcdatamodel; sourceTree = "<group>"; };
+		AECDA53E19A704100072D831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AECDA54119A704100072D831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AECDA54319A704100072D831 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AECDA54919A704100072D831 /* ForestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECDA54E19A704100072D831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECDA54F19A704100072D831 /* ForestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestTests.swift; sourceTree = "<group>"; };
+		AECDA55B19A7044F0072D831 /* Forest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forest-Bridging-Header.h"; sourceTree = "<group>"; };
+		AECDA55E19A705B80072D831 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		AECDA56019A706210072D831 /* Forest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Forest.entitlements; sourceTree = "<group>"; };
+		AECDA56119A706240072D831 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AECDA56319A706280072D831 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AECDA56519A706430072D831 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE82B3D119A6E607000BFABE /* Frameworks */ = {
+		AECDA53119A704100072D831 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE82B3FF19A6E658000BFABE /* GameKit.framework in Frameworks */,
-				AE82B3FD19A6E620000BFABE /* MapKit.framework in Frameworks */,
-				AE82B3FB19A6E61C000BFABE /* CloudKit.framework in Frameworks */,
+				AECDA56419A706280072D831 /* GameKit.framework in Frameworks */,
+				AECDA55F19A705B80072D831 /* FacebookSDK.framework in Frameworks */,
+				AECDA56619A706430072D831 /* MapKit.framework in Frameworks */,
+				AECDA56219A706240072D831 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE82B3E619A6E607000BFABE /* Frameworks */ = {
+		AECDA54619A704100072D831 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,84 +70,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE82B3CB19A6E607000BFABE = {
+		AECDA52B19A704100072D831 = {
 			isa = PBXGroup;
 			children = (
-				AE82B3D619A6E607000BFABE /* Forest */,
-				AE82B3EC19A6E607000BFABE /* ForestTests */,
-				AE82B3D519A6E607000BFABE /* Products */,
+				AECDA53619A704100072D831 /* Forest */,
+				AECDA54C19A704100072D831 /* ForestTests */,
+				AECDA53519A704100072D831 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AE82B3D519A6E607000BFABE /* Products */ = {
+		AECDA53519A704100072D831 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE82B3D419A6E607000BFABE /* Forest.app */,
-				AE82B3E919A6E607000BFABE /* ForestTests.xctest */,
+				AECDA53419A704100072D831 /* Forest.app */,
+				AECDA54919A704100072D831 /* ForestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE82B3D619A6E607000BFABE /* Forest */ = {
+		AECDA53619A704100072D831 /* Forest */ = {
 			isa = PBXGroup;
 			children = (
-				AE82B3F919A6E618000BFABE /* Forest.entitlements */,
-				AE82B3D919A6E607000BFABE /* AppDelegate.swift */,
-				AE82B3DE19A6E607000BFABE /* ViewController.swift */,
-				AE82B3E019A6E607000BFABE /* Main.storyboard */,
-				AE82B3E319A6E607000BFABE /* Images.xcassets */,
-				AE82B3DB19A6E607000BFABE /* Forest.xcdatamodeld */,
-				AE82B3D719A6E607000BFABE /* Supporting Files */,
-				AE82B40019A6E666000BFABE /* Frameworks */,
+				AECDA53919A704100072D831 /* AppDelegate.swift */,
+				AECDA55D19A704E80072D831 /* Controllers */,
+				AECDA53719A704100072D831 /* Supporting Files */,
+				AECDA55C19A704BF0072D831 /* Frameworks */,
 			);
 			path = Forest;
 			sourceTree = "<group>";
 		};
-		AE82B3D719A6E607000BFABE /* Supporting Files */ = {
+		AECDA53719A704100072D831 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE82B3D819A6E607000BFABE /* Info.plist */,
+				AECDA54019A704100072D831 /* Main.storyboard */,
+				AECDA54319A704100072D831 /* Images.xcassets */,
+				AECDA53B19A704100072D831 /* Forest.xcdatamodeld */,
+				AECDA56019A706210072D831 /* Forest.entitlements */,
+				AECDA53819A704100072D831 /* Info.plist */,
+				AECDA55B19A7044F0072D831 /* Forest-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AE82B3EC19A6E607000BFABE /* ForestTests */ = {
+		AECDA54C19A704100072D831 /* ForestTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE82B3EF19A6E607000BFABE /* ForestTests.swift */,
-				AE82B3ED19A6E607000BFABE /* Supporting Files */,
+				AECDA54F19A704100072D831 /* ForestTests.swift */,
+				AECDA54D19A704100072D831 /* Supporting Files */,
 			);
 			path = ForestTests;
 			sourceTree = "<group>";
 		};
-		AE82B3ED19A6E607000BFABE /* Supporting Files */ = {
+		AECDA54D19A704100072D831 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE82B3EE19A6E607000BFABE /* Info.plist */,
+				AECDA54E19A704100072D831 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AE82B40019A6E666000BFABE /* Frameworks */ = {
+		AECDA55C19A704BF0072D831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE82B3FE19A6E658000BFABE /* GameKit.framework */,
-				AE82B3FC19A6E620000BFABE /* MapKit.framework */,
-				AE82B3FA19A6E61C000BFABE /* CloudKit.framework */,
+				AECDA56519A706430072D831 /* MapKit.framework */,
+				AECDA56319A706280072D831 /* GameKit.framework */,
+				AECDA56119A706240072D831 /* CloudKit.framework */,
+				AECDA55E19A705B80072D831 /* FacebookSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AECDA55D19A704E80072D831 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AECDA53E19A704100072D831 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE82B3D319A6E607000BFABE /* Forest */ = {
+		AECDA53319A704100072D831 /* Forest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE82B3F319A6E607000BFABE /* Build configuration list for PBXNativeTarget "Forest" */;
+			buildConfigurationList = AECDA55319A704100072D831 /* Build configuration list for PBXNativeTarget "Forest" */;
 			buildPhases = (
-				AE82B3D019A6E607000BFABE /* Sources */,
-				AE82B3D119A6E607000BFABE /* Frameworks */,
-				AE82B3D219A6E607000BFABE /* Resources */,
+				AECDA53019A704100072D831 /* Sources */,
+				AECDA53119A704100072D831 /* Frameworks */,
+				AECDA53219A704100072D831 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,37 +165,37 @@
 			);
 			name = Forest;
 			productName = Forest;
-			productReference = AE82B3D419A6E607000BFABE /* Forest.app */;
+			productReference = AECDA53419A704100072D831 /* Forest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE82B3E819A6E607000BFABE /* ForestTests */ = {
+		AECDA54819A704100072D831 /* ForestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE82B3F619A6E607000BFABE /* Build configuration list for PBXNativeTarget "ForestTests" */;
+			buildConfigurationList = AECDA55619A704100072D831 /* Build configuration list for PBXNativeTarget "ForestTests" */;
 			buildPhases = (
-				AE82B3E519A6E607000BFABE /* Sources */,
-				AE82B3E619A6E607000BFABE /* Frameworks */,
-				AE82B3E719A6E607000BFABE /* Resources */,
+				AECDA54519A704100072D831 /* Sources */,
+				AECDA54619A704100072D831 /* Frameworks */,
+				AECDA54719A704100072D831 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE82B3EB19A6E607000BFABE /* PBXTargetDependency */,
+				AECDA54B19A704100072D831 /* PBXTargetDependency */,
 			);
 			name = ForestTests;
 			productName = ForestTests;
-			productReference = AE82B3E919A6E607000BFABE /* ForestTests.xctest */;
+			productReference = AECDA54919A704100072D831 /* ForestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AE82B3CC19A6E607000BFABE /* Project object */ = {
+		AECDA52C19A704100072D831 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "App Tree";
 				TargetAttributes = {
-					AE82B3D319A6E607000BFABE = {
+					AECDA53319A704100072D831 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = N8R3JS4XVZ;
 						SystemCapabilities = {
@@ -194,21 +208,18 @@
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
-							com.apple.SafariKeychain = {
-								enabled = 0;
-							};
 							com.apple.iCloud = {
 								enabled = 1;
 							};
 						};
 					};
-					AE82B3E819A6E607000BFABE = {
+					AECDA54819A704100072D831 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = AE82B3D319A6E607000BFABE;
+						TestTargetID = AECDA53319A704100072D831;
 					};
 				};
 			};
-			buildConfigurationList = AE82B3CF19A6E607000BFABE /* Build configuration list for PBXProject "Forest" */;
+			buildConfigurationList = AECDA52F19A704100072D831 /* Build configuration list for PBXProject "Forest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,28 +227,28 @@
 				en,
 				Base,
 			);
-			mainGroup = AE82B3CB19A6E607000BFABE;
-			productRefGroup = AE82B3D519A6E607000BFABE /* Products */;
+			mainGroup = AECDA52B19A704100072D831;
+			productRefGroup = AECDA53519A704100072D831 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE82B3D319A6E607000BFABE /* Forest */,
-				AE82B3E819A6E607000BFABE /* ForestTests */,
+				AECDA53319A704100072D831 /* Forest */,
+				AECDA54819A704100072D831 /* ForestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE82B3D219A6E607000BFABE /* Resources */ = {
+		AECDA53219A704100072D831 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE82B3E219A6E607000BFABE /* Main.storyboard in Resources */,
-				AE82B3E419A6E607000BFABE /* Images.xcassets in Resources */,
+				AECDA54219A704100072D831 /* Main.storyboard in Resources */,
+				AECDA54419A704100072D831 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE82B3E719A6E607000BFABE /* Resources */ = {
+		AECDA54719A704100072D831 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,39 +258,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE82B3D019A6E607000BFABE /* Sources */ = {
+		AECDA53019A704100072D831 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE82B3DF19A6E607000BFABE /* ViewController.swift in Sources */,
-				AE82B3DD19A6E607000BFABE /* Forest.xcdatamodeld in Sources */,
-				AE82B3DA19A6E607000BFABE /* AppDelegate.swift in Sources */,
+				AECDA53F19A704100072D831 /* ViewController.swift in Sources */,
+				AECDA53D19A704100072D831 /* Forest.xcdatamodeld in Sources */,
+				AECDA53A19A704100072D831 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE82B3E519A6E607000BFABE /* Sources */ = {
+		AECDA54519A704100072D831 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE82B3F019A6E607000BFABE /* ForestTests.swift in Sources */,
+				AECDA55019A704100072D831 /* ForestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AE82B3EB19A6E607000BFABE /* PBXTargetDependency */ = {
+		AECDA54B19A704100072D831 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE82B3D319A6E607000BFABE /* Forest */;
-			targetProxy = AE82B3EA19A6E607000BFABE /* PBXContainerItemProxy */;
+			target = AECDA53319A704100072D831 /* Forest */;
+			targetProxy = AECDA54A19A704100072D831 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE82B3E019A6E607000BFABE /* Main.storyboard */ = {
+		AECDA54019A704100072D831 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE82B3E119A6E607000BFABE /* Base */,
+				AECDA54119A704100072D831 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -287,7 +298,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AE82B3F119A6E607000BFABE /* Debug */ = {
+		AECDA55119A704100072D831 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +341,7 @@
 			};
 			name = Debug;
 		};
-		AE82B3F219A6E607000BFABE /* Release */ = {
+		AECDA55219A704100072D831 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +377,7 @@
 			};
 			name = Release;
 		};
-		AE82B3F419A6E607000BFABE /* Debug */ = {
+		AECDA55419A704100072D831 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -374,14 +385,19 @@
 				CODE_SIGN_ENTITLEMENTS = Forest/Forest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sitdh/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Forest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 			};
 			name = Debug;
 		};
-		AE82B3F519A6E607000BFABE /* Release */ = {
+		AECDA55519A704100072D831 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -389,14 +405,19 @@
 				CODE_SIGN_ENTITLEMENTS = Forest/Forest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sitdh/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Forest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		AE82B3F719A6E607000BFABE /* Debug */ = {
+		AECDA55719A704100072D831 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,7 +436,7 @@
 			};
 			name = Debug;
 		};
-		AE82B3F819A6E607000BFABE /* Release */ = {
+		AECDA55819A704100072D831 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -433,45 +454,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE82B3CF19A6E607000BFABE /* Build configuration list for PBXProject "Forest" */ = {
+		AECDA52F19A704100072D831 /* Build configuration list for PBXProject "Forest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE82B3F119A6E607000BFABE /* Debug */,
-				AE82B3F219A6E607000BFABE /* Release */,
+				AECDA55119A704100072D831 /* Debug */,
+				AECDA55219A704100072D831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE82B3F319A6E607000BFABE /* Build configuration list for PBXNativeTarget "Forest" */ = {
+		AECDA55319A704100072D831 /* Build configuration list for PBXNativeTarget "Forest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE82B3F419A6E607000BFABE /* Debug */,
-				AE82B3F519A6E607000BFABE /* Release */,
+				AECDA55419A704100072D831 /* Debug */,
+				AECDA55519A704100072D831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AE82B3F619A6E607000BFABE /* Build configuration list for PBXNativeTarget "ForestTests" */ = {
+		AECDA55619A704100072D831 /* Build configuration list for PBXNativeTarget "ForestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE82B3F719A6E607000BFABE /* Debug */,
-				AE82B3F819A6E607000BFABE /* Release */,
+				AECDA55719A704100072D831 /* Debug */,
+				AECDA55819A704100072D831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AE82B3DB19A6E607000BFABE /* Forest.xcdatamodeld */ = {
+		AECDA53B19A704100072D831 /* Forest.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AE82B3DC19A6E607000BFABE /* Forest.xcdatamodel */,
+				AECDA53C19A704100072D831 /* Forest.xcdatamodel */,
 			);
-			currentVersion = AE82B3DC19A6E607000BFABE /* Forest.xcdatamodel */;
+			currentVersion = AECDA53C19A704100072D831 /* Forest.xcdatamodel */;
 			path = Forest.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = AE82B3CC19A6E607000BFABE /* Project object */;
+	rootObject = AECDA52C19A704100072D831 /* Project object */;
 }

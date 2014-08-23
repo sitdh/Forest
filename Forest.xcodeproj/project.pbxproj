@@ -12,6 +12,7 @@
 		AE62F97B19A85D970061CF88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */; };
 		AE62F97D19A85D9F0061CF88 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97C19A85D9F0061CF88 /* Security.framework */; };
 		AE62F98019A85E550061CF88 /* ApplicationConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */; };
+		AE62F98219A8656F0061CF88 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE62F98119A8656F0061CF88 /* GooglePlus.bundle */; };
 		AECDA53A19A704100072D831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53919A704100072D831 /* AppDelegate.swift */; };
 		AECDA53D19A704100072D831 /* Forest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53B19A704100072D831 /* Forest.xcdatamodeld */; };
 		AECDA53F19A704100072D831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53E19A704100072D831 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AE62F97C19A85D9F0061CF88 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationConstantValues.swift; path = Classes/ApplicationConstantValues.swift; sourceTree = "<group>"; };
+		AE62F98119A8656F0061CF88 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "Other Sources/GooglePlus.bundle"; sourceTree = "<group>"; };
 		AECDA53419A704100072D831 /* Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECDA53819A704100072D831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AECDA53919A704100072D831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		AECDA53719A704100072D831 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE62F98119A8656F0061CF88 /* GooglePlus.bundle */,
 				AECDA54019A704100072D831 /* Main.storyboard */,
 				AECDA54319A704100072D831 /* Images.xcassets */,
 				AECDA53B19A704100072D831 /* Forest.xcdatamodeld */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECDA54219A704100072D831 /* Main.storyboard in Resources */,
+				AE62F98219A8656F0061CF88 /* GooglePlus.bundle in Resources */,
 				AECDA54419A704100072D831 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

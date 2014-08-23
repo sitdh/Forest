@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AE62F97619A856CE0061CF88 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */; };
 		AE62F97719A856CE0061CF88 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97519A856CE0061CF88 /* GooglePlus.framework */; };
-		AE62F97919A856E70061CF88 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE62F97819A856E70061CF88 /* GooglePlus.bundle */; };
 		AE62F97B19A85D970061CF88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */; };
 		AE62F97D19A85D9F0061CF88 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97C19A85D9F0061CF88 /* Security.framework */; };
 		AE62F98019A85E550061CF88 /* ApplicationConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "Other Sources/GoogleOpenSource.framework"; sourceTree = "<group>"; };
 		AE62F97519A856CE0061CF88 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "Other Sources/GooglePlus.framework"; sourceTree = "<group>"; };
-		AE62F97819A856E70061CF88 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "Other Sources/GooglePlus.bundle"; sourceTree = "<group>"; };
 		AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AE62F97C19A85D9F0061CF88 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationConstantValues.swift; path = Classes/ApplicationConstantValues.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 		AECDA53719A704100072D831 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE62F97819A856E70061CF88 /* GooglePlus.bundle */,
 				AECDA54019A704100072D831 /* Main.storyboard */,
 				AECDA54319A704100072D831 /* Images.xcassets */,
 				AECDA53B19A704100072D831 /* Forest.xcdatamodeld */,
@@ -274,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECDA54219A704100072D831 /* Main.storyboard in Resources */,
-				AE62F97919A856E70061CF88 /* GooglePlus.bundle in Resources */,
 				AECDA54419A704100072D831 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

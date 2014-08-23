@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE62F97619A856CE0061CF88 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */; };
+		AE62F97719A856CE0061CF88 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97519A856CE0061CF88 /* GooglePlus.framework */; };
+		AE62F97919A856E70061CF88 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE62F97819A856E70061CF88 /* GooglePlus.bundle */; };
+		AE62F97B19A85D970061CF88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */; };
+		AE62F97D19A85D9F0061CF88 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97C19A85D9F0061CF88 /* Security.framework */; };
+		AE62F98019A85E550061CF88 /* ApplicationConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */; };
 		AECDA53A19A704100072D831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53919A704100072D831 /* AppDelegate.swift */; };
 		AECDA53D19A704100072D831 /* Forest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53B19A704100072D831 /* Forest.xcdatamodeld */; };
 		AECDA53F19A704100072D831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53E19A704100072D831 /* ViewController.swift */; };
@@ -30,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "Other Sources/GoogleOpenSource.framework"; sourceTree = "<group>"; };
+		AE62F97519A856CE0061CF88 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "Other Sources/GooglePlus.framework"; sourceTree = "<group>"; };
+		AE62F97819A856E70061CF88 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "Other Sources/GooglePlus.bundle"; sourceTree = "<group>"; };
+		AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE62F97C19A85D9F0061CF88 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationConstantValues.swift; path = Classes/ApplicationConstantValues.swift; sourceTree = "<group>"; };
 		AECDA53419A704100072D831 /* Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECDA53819A704100072D831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AECDA53919A704100072D831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE62F97D19A85D9F0061CF88 /* Security.framework in Frameworks */,
+				AE62F97B19A85D970061CF88 /* SystemConfiguration.framework in Frameworks */,
+				AE62F97619A856CE0061CF88 /* GoogleOpenSource.framework in Frameworks */,
+				AE62F97719A856CE0061CF88 /* GooglePlus.framework in Frameworks */,
 				AECDA56419A706280072D831 /* GameKit.framework in Frameworks */,
 				AECDA55F19A705B80072D831 /* FacebookSDK.framework in Frameworks */,
 				AECDA56619A706430072D831 /* MapKit.framework in Frameworks */,
@@ -70,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE62F97E19A85E1D0061CF88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		AECDA52B19A704100072D831 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +117,7 @@
 			children = (
 				AECDA53919A704100072D831 /* AppDelegate.swift */,
 				AECDA55D19A704E80072D831 /* Controllers */,
+				AE62F97E19A85E1D0061CF88 /* Models */,
 				AECDA53719A704100072D831 /* Supporting Files */,
 				AECDA55C19A704BF0072D831 /* Frameworks */,
 			);
@@ -102,6 +127,7 @@
 		AECDA53719A704100072D831 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE62F97819A856E70061CF88 /* GooglePlus.bundle */,
 				AECDA54019A704100072D831 /* Main.storyboard */,
 				AECDA54319A704100072D831 /* Images.xcassets */,
 				AECDA53B19A704100072D831 /* Forest.xcdatamodeld */,
@@ -132,6 +158,10 @@
 		AECDA55C19A704BF0072D831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE62F97C19A85D9F0061CF88 /* Security.framework */,
+				AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */,
+				AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */,
+				AE62F97519A856CE0061CF88 /* GooglePlus.framework */,
 				AECDA56519A706430072D831 /* MapKit.framework */,
 				AECDA56319A706280072D831 /* GameKit.framework */,
 				AECDA56119A706240072D831 /* CloudKit.framework */,
@@ -244,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECDA54219A704100072D831 /* Main.storyboard in Resources */,
+				AE62F97919A856E70061CF88 /* GooglePlus.bundle in Resources */,
 				AECDA54419A704100072D831 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE62F98019A85E550061CF88 /* ApplicationConstantValues.swift in Sources */,
 				AECDA53F19A704100072D831 /* ViewController.swift in Sources */,
 				AECDA53D19A704100072D831 /* Forest.xcdatamodeld in Sources */,
 				AECDA53A19A704100072D831 /* AppDelegate.swift in Sources */,
@@ -388,6 +420,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sitdh/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Forest/Other",
+					Sources,
 				);
 				INFOPLIST_FILE = Forest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -408,6 +443,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sitdh/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Forest/Other",
+					Sources,
 				);
 				INFOPLIST_FILE = Forest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

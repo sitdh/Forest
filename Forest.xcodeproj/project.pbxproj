@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE62F97619A856CE0061CF88 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */; };
-		AE62F97719A856CE0061CF88 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97519A856CE0061CF88 /* GooglePlus.framework */; };
 		AE62F97B19A85D970061CF88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */; };
 		AE62F97D19A85D9F0061CF88 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE62F97C19A85D9F0061CF88 /* Security.framework */; };
 		AE62F98019A85E550061CF88 /* ApplicationConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */; };
-		AE62F98219A8656F0061CF88 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE62F98119A8656F0061CF88 /* GooglePlus.bundle */; };
 		AECDA53A19A704100072D831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53919A704100072D831 /* AppDelegate.swift */; };
 		AECDA53D19A704100072D831 /* Forest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53B19A704100072D831 /* Forest.xcdatamodeld */; };
 		AECDA53F19A704100072D831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA53E19A704100072D831 /* ViewController.swift */; };
 		AECDA54219A704100072D831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECDA54019A704100072D831 /* Main.storyboard */; };
 		AECDA54419A704100072D831 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECDA54319A704100072D831 /* Images.xcassets */; };
 		AECDA55019A704100072D831 /* ForestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECDA54F19A704100072D831 /* ForestTests.swift */; };
-		AECDA55F19A705B80072D831 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA55E19A705B80072D831 /* FacebookSDK.framework */; };
 		AECDA56219A706240072D831 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA56119A706240072D831 /* CloudKit.framework */; };
 		AECDA56419A706280072D831 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA56319A706280072D831 /* GameKit.framework */; };
 		AECDA56619A706430072D831 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDA56519A706430072D831 /* MapKit.framework */; };
@@ -36,12 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "Other Sources/GoogleOpenSource.framework"; sourceTree = "<group>"; };
-		AE62F97519A856CE0061CF88 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "Other Sources/GooglePlus.framework"; sourceTree = "<group>"; };
 		AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AE62F97C19A85D9F0061CF88 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AE62F97F19A85E550061CF88 /* ApplicationConstantValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationConstantValues.swift; path = Classes/ApplicationConstantValues.swift; sourceTree = "<group>"; };
-		AE62F98119A8656F0061CF88 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "Other Sources/GooglePlus.bundle"; sourceTree = "<group>"; };
 		AECDA53419A704100072D831 /* Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECDA53819A704100072D831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AECDA53919A704100072D831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +46,6 @@
 		AECDA54E19A704100072D831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AECDA54F19A704100072D831 /* ForestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestTests.swift; sourceTree = "<group>"; };
 		AECDA55B19A7044F0072D831 /* Forest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forest-Bridging-Header.h"; sourceTree = "<group>"; };
-		AECDA55E19A705B80072D831 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		AECDA56019A706210072D831 /* Forest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Forest.entitlements; sourceTree = "<group>"; };
 		AECDA56119A706240072D831 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AECDA56319A706280072D831 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -67,10 +59,7 @@
 			files = (
 				AE62F97D19A85D9F0061CF88 /* Security.framework in Frameworks */,
 				AE62F97B19A85D970061CF88 /* SystemConfiguration.framework in Frameworks */,
-				AE62F97619A856CE0061CF88 /* GoogleOpenSource.framework in Frameworks */,
-				AE62F97719A856CE0061CF88 /* GooglePlus.framework in Frameworks */,
 				AECDA56419A706280072D831 /* GameKit.framework in Frameworks */,
-				AECDA55F19A705B80072D831 /* FacebookSDK.framework in Frameworks */,
 				AECDA56619A706430072D831 /* MapKit.framework in Frameworks */,
 				AECDA56219A706240072D831 /* CloudKit.framework in Frameworks */,
 			);
@@ -127,7 +116,6 @@
 		AECDA53719A704100072D831 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE62F98119A8656F0061CF88 /* GooglePlus.bundle */,
 				AECDA54019A704100072D831 /* Main.storyboard */,
 				AECDA54319A704100072D831 /* Images.xcassets */,
 				AECDA53B19A704100072D831 /* Forest.xcdatamodeld */,
@@ -160,12 +148,9 @@
 			children = (
 				AE62F97C19A85D9F0061CF88 /* Security.framework */,
 				AE62F97A19A85D970061CF88 /* SystemConfiguration.framework */,
-				AE62F97419A856CE0061CF88 /* GoogleOpenSource.framework */,
-				AE62F97519A856CE0061CF88 /* GooglePlus.framework */,
 				AECDA56519A706430072D831 /* MapKit.framework */,
 				AECDA56319A706280072D831 /* GameKit.framework */,
 				AECDA56119A706240072D831 /* CloudKit.framework */,
-				AECDA55E19A705B80072D831 /* FacebookSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -274,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECDA54219A704100072D831 /* Main.storyboard in Resources */,
-				AE62F98219A8656F0061CF88 /* GooglePlus.bundle in Resources */,
 				AECDA54419A704100072D831 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,10 +403,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sitdh/Documents/FacebookSDK,
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Forest/Other",
-					Sources,
 				);
 				INFOPLIST_FILE = Forest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -442,10 +423,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/sitdh/Documents/FacebookSDK,
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Forest/Other",
-					Sources,
 				);
 				INFOPLIST_FILE = Forest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

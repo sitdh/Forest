@@ -6,8 +6,8 @@
 //  Copyright (c) พ.ศ. 2557 App Tree. All rights reserved.
 //
 
-#import <FacebookSDK/FacebookSDK.h>
-
-#import <GooglePlus/GooglePlus.h>
-#import <GoogleOpenSource/GoogleOpenSource.h>
+//#import <FacebookSDK/FacebookSDK.h>
+//
+//#import <GooglePlus/GooglePlus.h>
+//#import <GoogleOpenSource/GoogleOpenSource.h>
 

@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
+        
+        var ubiquityContainer = NSFileManager.defaultManager().URLForUbiquityContainerIdentifier(nil);
+        
+        NSLog("B \(ubiquityContainer)");
+        
         return true
     }
 
@@ -55,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
         let modelURL = NSBundle.mainBundle().URLForResource("Forest", withExtension: "momd")
-        return NSManagedObjectModel(contentsOfURL: modelURL)
+        return NSManagedObjectModel(contentsOfURL: modelURL!)
     }()
 
     lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator? = {
